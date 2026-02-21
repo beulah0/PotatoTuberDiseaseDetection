@@ -6,9 +6,13 @@ This project is an AI-powered potato tuber disease detection system that automat
 The system can classify potato tubers into 5 categories:
 
 Healthy
+
 Blackspot Bruising
+
 Soft Rot
+
 Brown Rot
+
 Dry Rot
 
 It also provides confidence scores, top-3 predictions, and Grad-CAM visual explanations to show which image regions influenced the model’s decision.
