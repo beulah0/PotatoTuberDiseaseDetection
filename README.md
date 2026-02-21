@@ -4,10 +4,15 @@
 This project is an AI-powered potato tuber disease detection system that automatically identifies diseases from potato images using deep learning and computer vision techniques.
 
 The system can classify potato tubers into 5 categories:
+
 Healthy
+
 Blackspot Bruising
+
 Soft Rot
+
 Brown Rot
+
 Dry Rot
 
 It also provides confidence scores, top-3 predictions, and Grad-CAM visual explanations to show which image regions influenced the model’s decision.
@@ -32,22 +37,6 @@ Matplotlib & Seaborn
 Streamlit
 Scikit-learn
 
-📂 Dataset Structure
-dataset/
- ├── train/
- │   ├── Healthy/
- │   ├── Blackspot_Bruising/
- │   ├── Soft_Rot/
- │   ├── Brown_Rot/
- │   └── Dry_Rot/
- │
- └── test/
-     ├── Healthy/
-     ├── Blackspot_Bruising/
-     ├── Soft_Rot/
-     ├── Brown_Rot/
-     └── Dry_Rot/
-⚙️ Model Architecture
 
 The system supports two approaches:
 
@@ -99,7 +88,11 @@ streamlit run app.py
 
 The system provides:
 Disease prediction
+
 Confidence score
+
 Top-3 predictions
+
 Grad-CAM explanation heatmap
+
 Disease information (symptoms, prevention, treatment)
