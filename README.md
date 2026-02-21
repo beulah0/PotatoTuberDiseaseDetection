@@ -72,7 +72,8 @@ F1-Score: 95.3%
 
 🖥️ How to Run the Project
 Step 1 — Clone Repository
-git clone https://github.com/yourusername/PotatoDiseaseDetection.git
+git clone https://github.com/beulah0/PotatoDiseaseDetection.git
+
 cd PotatoDiseaseDetection
 
 Step 2 — Create Virtual Environment
