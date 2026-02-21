@@ -6,13 +6,9 @@ This project is an AI-powered potato tuber disease detection system that automat
 The system can classify potato tubers into 5 categories:
 
 Healthy
-
 Blackspot Bruising
-
 Soft Rot
-
 Brown Rot
-
 Dry Rot
 
 It also provides confidence scores, top-3 predictions, and Grad-CAM visual explanations to show which image regions influenced the model’s decision.
@@ -74,13 +70,17 @@ F1-Score: 95.3%
 Step 1 — Clone Repository
 git clone https://github.com/yourusername/PotatoDiseaseDetection.git
 cd PotatoDiseaseDetection
+
 Step 2 — Create Virtual Environment
 python -m venv myenv
 myenv\Scripts\activate
+
 Step 3 — Install Dependencies
 pip install -r requirements.txt
+
 Step 4 — Train Model (Optional)
 python train.py
+
 Step 5 — Run Web App
 streamlit run app.py
 
